@@ -8,3 +8,5 @@ self.wheels = wheels
 self.color = color
 self.engVol = engVol
 }
+
+var bmw = Car()
