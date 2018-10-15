@@ -1,0 +1,10 @@
+class Car {
+let wheels:Int = 4
+var color: String
+var engVol: Double
+
+init(wheels: Int, color: String, engVol: Double){
+self.wheels = wheels
+self.color = color
+self.engVol = engVol
+}
