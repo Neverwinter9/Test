@@ -1,5 +1,5 @@
 class Car {
-let wheels:Int = 4
+let wheels: Int = 4
 var color: String
 var engVol: Double
 
@@ -9,4 +9,10 @@ self.color = color
 self.engVol = engVol
 }
 
-var bmw = Car()
+func ride(action: String){
+  print(The car \(action))
+ }
+}
+
+var bmw = Car(wheels: 4, color: "Black", engVol: 3.0)
+bmw.ride(action: "rides")
